@@ -1,6 +1,6 @@
 [build]
 base = "www"
-command = "pnpm install --production=false && pnpm build"
+command = "npx -y pnpm@10.30.3 install --production=false && npx -y pnpm@10.30.3 build"
 publish = ".next"
 
 [[plugins]]
